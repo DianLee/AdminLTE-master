@@ -3265,7 +3265,7 @@ table.text-center th {
 }
 .login-box,
 .register-box {
-      width: 300px;
+      width: 350px;
     position: relative;
     float: right;
     right: 8vw;
@@ -5120,4 +5120,40 @@ button:focus{
     top: -30px;
     color: #17abf8;
   }
+}
+.rc-anchor-light {
+     background: transparent; 
+     border: 0px solid #d3d3d3; 
+    color: #696969;
+}
+
+.rc-anchor-normal {
+    height: 74px;
+    width: 300px;
+}
+.rc-anchor {
+     border-radius: 0px; 
+     box-shadow: none; 
+     -webkit-box-shadow: none; 
+    -moz-box-shadow: none;
+}
+.recaptcha-checkbox-border {
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 0px;
+    background-color: #fff;
+    border: 1px solid #d3cfc8;
+    font-size: 1px;
+    height: 20px;
+    position: absolute;
+    width: 20px;
+}
+.loginbutton{
+  margin:25px 0;
+}
+.alignright{
+  float: right;
+}
+.checkbox{
+  float: right;
 }
