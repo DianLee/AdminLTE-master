@@ -166,7 +166,7 @@ h6,
 .h6 {
   font-family: 'Roboto', sans-serif;
   color: #617279;
-  
+
 }
 h6{
   font-size: 14px;
@@ -5109,6 +5109,15 @@ input[type="button" i], input[type="submit" i], input[type="reset" i], input[typ
     border-color: buttonface;
     border-image: initial;
 }
+.g-recaptcha{
+  margin: 0 auto;
+  position: relative;
+  left: 5px;
+}
+.loginbutton{
+  margin:25px 0 10px 0;
+}
+
 input[type="button" i], input[type="submit" i], input[type="reset" i], input[type="file" i]::-webkit-file-upload-button,.box button:hover,.box button:active{
 color: #17abf8;
 }
@@ -5124,12 +5133,42 @@ button:focus{
     top: -30px;
     color: #17abf8;
   }
+  .g-recaptcha{
+    margin: 0 auto;
+    position: relative;
+    left: 0px;
+    float: right;
+  }
+  .loginbutton{
+    margin:120px 0 10px 0;
+  }
+  .login-box, .register-box {
+    width: 350px;
+    position: relative;
+    float: right;
+    right: 8vw;
+    top: 5vh;
+  }
+  .loginbg {
+    background-image: url(../../dist/img/login-bg.png);
+    background-repeat: no-repeat;
+    background-position: 0 100%;
+    background-size: 100vw auto;
+    width: 100%;
+    min-height: 100vh;
+    height: auto;
+    position: absolute;
+    opacity: 0.5;
+  }
+  .login-box-body, .register-box-body {
+    background: transparent;
+    padding: 20px;
+    border-top: 0;
+    color: #666;
+    text-align: center;
+  }
 }
-.g-recaptcha{
-  margin: 0 auto;
-  position: relative;
-  left: 5px;
-}
+
 .rc-anchor-light {
      background: transparent !important; 
      border: 0px solid #d3d3d3 !important; 
@@ -5156,9 +5195,6 @@ button:focus{
     height: 20px !important;
     position: absolute;
     width: 20px !important;
-}
-.loginbutton{
-  margin:25px 0 10px 0;
 }
 .alignright{
   float: right;
