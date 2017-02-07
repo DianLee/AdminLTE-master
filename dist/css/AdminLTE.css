@@ -1272,7 +1272,7 @@ a:focus {
   border-color: #d2d6de;
 }
 .form-control:focus {
-  border-color: #3c8dbc;
+  border-color: #17ABF8;
   box-shadow: none;
 }
 .form-control::-moz-placeholder,
@@ -5207,4 +5207,19 @@ button:focus{
 }
 .login-box-body .form-control {
     height: 50px;
+}
+.active h3{
+  color: #17ABF8;
+}
+.form-control-feedback {
+    position: absolute;
+    top: 7px;
+    right: 0;
+    z-index: 2;
+    display: block;
+    width: 34px;
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+    pointer-events: none;
 }
