@@ -2276,8 +2276,8 @@ a:focus {
   background-color: #e7e7e7;
 }
 .btn-primary {
-  background-color: #3c8dbc;
-  border-color: #367fa9;
+  background-color: #17ABF8;
+  border-color: #17ABF8;
 }
 .btn-primary:hover,
 .btn-primary:active,
@@ -5121,6 +5121,9 @@ button:focus{
     color: #17abf8;
   }
 }
+.g-recaptcha{
+  margin: 0 auto;
+}
 .rc-anchor-light {
      background: transparent !important; 
      border: 0px solid #d3d3d3 !important; 
@@ -5149,11 +5152,17 @@ button:focus{
     width: 20px !important;
 }
 .loginbutton{
-  margin:25px 0;
+  margin:25px 0 10px 0;
 }
 .alignright{
   float: right;
+  text-align: right;
+  margin-right: 15px;
 }
 .checkbox{
   float: right;
+  margin: 10px 0 20px 0 ;
+}
+.form-control {
+    height: 50px;
 }
