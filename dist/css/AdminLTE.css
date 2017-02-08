@@ -5142,13 +5142,6 @@ button:focus{
   .loginbutton{
     margin:120px 0 10px 0;
   }
-  .login-box, .register-box {
-    width: 350px;
-    position: relative;
-    float: right;
-    right: 4vw;
-    top: 5vh;
-  }
   .loginbg {
     background-image: url(../../dist/img/login-bg.png);
     background-repeat: no-repeat;
@@ -5160,6 +5153,13 @@ button:focus{
     position: absolute;
     opacity: 0.5;
   }
+   .login-box, .register-box {
+    width: 350px;
+    position: relative;
+    float: right;
+    right: 4vw;
+    top: 5vh;
+  }
   .login-box-body, .register-box-body {
     background: transparent;
     padding: 20px;
@@ -5168,7 +5168,15 @@ button:focus{
     text-align: center;
   }
 }
-
+@media screen and (max-width: 320px){
+.login-box, .register-box {
+    width: 350px;
+    position: relative;
+    float: right;
+    right: -5vw;
+    top: 5vh;
+  }
+}
 .rc-anchor-light {
      background: transparent !important; 
      border: 0px solid #d3d3d3 !important; 
